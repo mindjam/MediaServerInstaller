@@ -573,7 +573,7 @@ cat > /etc/default/couchpotato <<EOF
 CP_HOME=/opt/CouchPotato
 CP_USER=$COUCHPOTATOUSER
 CP_PIDFILE=/home/$COUCHPOTATOUSER/.couchpotato.pid
-CP_DATA=/opt/CouchPotato
+CP_DATA=/home/$COUCHPOTATOUSER/.couchpotato
 EOF
 cp /opt/CouchPotato/init/ubuntu /etc/init.d/couchpotato
 chmod +x /etc/init.d/couchpotato
